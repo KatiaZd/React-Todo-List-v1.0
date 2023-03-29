@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+// import { AddTodo } from "../../types";
 
 interface Props {
     addTodo: AddTodo;
