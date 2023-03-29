@@ -40,6 +40,7 @@ function App() {
 
   return(
     <>
+      <h1>Todo List</h1>
       <TodoList todos={todos} toggleTodo={toggleTodo} />;
       <AddTodoForm addTodo={addTodo} />
     </>
